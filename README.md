@@ -35,7 +35,7 @@ A Python tool to check for **SPF**, **DMARC**, and **DKIM** records to identify 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/email-spoofing-checker.git
+git clone [https://github.com/yourusername/email-spoofing-checker.git](https://github.com/threatlabindonesia/emailspoofchecker.git)
 cd email-spoofing-checker
 ```
 
@@ -44,7 +44,7 @@ cd email-spoofing-checker
 #### Single Domain Check
 
 ```bash
-python email_checker.py --domain example.com
+python emailspoofchecker.py --domain example.com
 ```
 
 #### Bulk Domain Check
@@ -58,29 +58,29 @@ python email_checker.py --domain example.com
 
 2. Run the script for bulk checking:
    ```bash
-   python email_checker.py --file domains.txt
+   python emailspoofchecker.py --file domains.txt
    ```
 
 #### Save Output to a File
 
 - JSON:
   ```bash
-  python email_checker.py --domain example.com --output result.json --format json
+  python emailspoofchecker.py --domain example.com --output result.json --format json
   ```
 
 - CSV:
   ```bash
-  python email_checker.py --file domains.txt --output result.csv --format csv
+  python emailspoofchecker.py --file domains.txt --output result.csv --format csv
   ```
 
 - XLSX:
   ```bash
-  python email_checker.py --file domains.txt --output result.xlsx --format xlsx
+  python emailspoofchecker.py --file domains.txt --output result.xlsx --format xlsx
   ```
 
 - TXT:
   ```bash
-  python email_checker.py --domain example.com --output result.txt --format txt
+  python emailspoofchecker.py --domain example.com --output result.txt --format txt
   ```
 
 #### Default Behavior
