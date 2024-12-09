@@ -35,8 +35,8 @@ A Python tool to check for **SPF**, **DMARC**, and **DKIM** records to identify 
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/yourusername/email-spoofing-checker.git](https://github.com/threatlabindonesia/emailspoofchecker.git)
-cd email-spoofing-checker
+git clone https://github.com/threatlabindonesia/emailspoofchecker.git
+cd emailspoofchecker
 ```
 
 ### Command Examples
